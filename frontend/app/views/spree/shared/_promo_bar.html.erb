@@ -1,0 +1,26 @@
+<!-- Styles And Script In A View Partial
+  If this view partial is removed from the spree_application.html.erb layout file, the storefront
+  will instantly snap back to the original look and feel with no hangover CSS or JavaScript related
+  to this partial.
+
+  Please do not transfer styles and JavaScript found here
+  into the main stylesheets or JavaScript files.
+-->
+<style>
+  #promobar {
+    background: #e8e4df;
+    color: white;
+    z-index: 10;
+    min-height: 65px;
+  }
+</style>
+
+<div id="promobar" class="d-flex justify-content-center align-items-center p-1">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h5 class="m-0">
+        <span><a class="btn-sm m-2" style="font-size: 0.875rem;font-weight:400;color:#000000;text-decoration-line: none;min-height: 40px;">10% off your first order, use code <strong>FIRST</strong>. T&amp;Cs apply</a></span>
+      </h5>
+    </div>
+  </div>
+</div>
