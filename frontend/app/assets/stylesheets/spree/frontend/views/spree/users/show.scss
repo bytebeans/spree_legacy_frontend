@@ -239,7 +239,7 @@
 
   &-order-date {
     order: 1;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-size: font-px-to-rem(14px);
     @include media-breakpoint-up(md) {
       font-size: font-px-to-rem(26px);

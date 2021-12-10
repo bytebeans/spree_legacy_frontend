@@ -1,6 +1,6 @@
 @mixin make-container-padding-x($padding-x) {
-  padding-right: $padding-x;
-  padding-left: $padding-x;
+  padding-right: 17px;
+  padding-left: 17px;
 }
 
 .container, .container-fluid {
